@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Neuromix</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark px-5">
+            <div class="row gx-4 d-none d-lg-flex">
+                <div class="col-lg-6 text-start">
+                    <div class="h-100 d-inline-flex align-items-center py-3">
+                        <div
+                            class="btn-sm-square rounded-circle bg-primary me-2"
+                        >
+                            <small
+                                class="fa fa-envelope-open text-white"
+                            ></small>
+                        </div>
+                        <small>neuromix@gmail.com</small>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-end">
+                    <div class="h-100 d-inline-flex align-items-center py-3">
+                        <div
+                            class="btn-sm-square rounded-circle bg-primary me-2"
+                        >
+                            <small class="far fa-clock text-white"></small>
+                        </div>
+                        <small>Lun - Ven : 9h - 21h</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5"
+        >
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <h2 class="m-0 text-primary">Neuromix</h2>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-4 py-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Accueil</a
+                    >
+                    <a href="index.html#about" class="nav-item nav-link"
+                        >À propos</a
+                    >
+                    <a href="index.html#catalog" class="nav-item nav-link"
+                        >Articles</a
+                    >
+                    <a href="index.html#contact" class="nav-item nav-link"
+                        >Contact</a
+                    >
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Plongez dans l'univers de l'intelligence
+                                        artificielle
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Découvrez les dernières évolutions,
+                                        analyses et réflexions sur le monde
+                                        fascinant de l'IA. De l'apprentissage
+                                        automatique aux algorithmes génératifs,
+                                        explorez l'impact de ces technologies
+                                        sur notre quotidien.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Événements et tendances en IA
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Suivez les conférences, projets
+                                        innovants et avancées en matière
+                                        d’intelligence artificielle. Restez à
+                                        jour sur ce que les experts français
+                                        disent de l'IA aujourd’hui.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-3.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Perspectives et applications concrètes
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-2"
+                                    >
+                                        Apprenez comment l’intelligence
+                                        artificielle transforme des domaines
+                                        comme l’éducation, la logistique, la
+                                        création numérique et l’automatisation.
+                                        Un regard accessible et informatif sur
+                                        les usages réels de l’IA.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div
+            class="container-fluid bg-light overflow-hidden my-5 px-lg-0"
+            id="about"
+        >
+            <div class="container about px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/about.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 about-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 pe-lg-0">
+                            <div
+                                class="bg-primary mb-3"
+                                style="width: 60px; height: 2px"
+                            ></div>
+                            <h1 class="display-5 mb-4">
+                                Votre Source Fiable d’Informations sur
+                                l’Intelligence Artificielle
+                            </h1>
+                            <p class="mb-4 pb-2">
+                                Ce blog est entièrement dédié à la diffusion de
+                                contenus clairs, actuels et précis sur
+                                l’intelligence artificielle. Notre mission est
+                                de rendre accessibles les concepts et évolutions
+                                de l’IA à un public curieux, en offrant des
+                                analyses approfondies, des interviews d’experts
+                                et des articles sur les dernières avancées
+                                technologiques dans le domaine.
+                            </p>
+                            <div class="row g-4 mb-4 pb-3">
+                                <div
+                                    class="col-sm-6 wow fadeIn"
+                                    data-wow-delay="0.1s"
+                                >
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-square bg-white rounded-circle"
+                                            style="width: 64px; height: 64px"
+                                        >
+                                            <img
+                                                class="img-fluid"
+                                                src="img/icon/icon-1.png"
+                                                alt="Icon"
+                                            />
+                                        </div>
+                                        <div class="ms-4">
+                                            <h2
+                                                class="mb-1"
+                                                data-toggle="counter-up"
+                                            >
+                                                2039
+                                            </h2>
+                                            <p
+                                                class="fw-medium text-primary mb-0"
+                                            >
+                                                Lecteurs Satisfaits
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-sm-6 wow fadeIn"
+                                    data-wow-delay="0.3s"
+                                >
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-square bg-white rounded-circle"
+                                            style="width: 64px; height: 64px"
+                                        >
+                                            <img
+                                                class="img-fluid"
+                                                src="img/icon/icon-5.png"
+                                                alt="Icon"
+                                            />
+                                        </div>
+                                        <div class="ms-4">
+                                            <h2
+                                                class="mb-1"
+                                                data-toggle="counter-up"
+                                            >
+                                                49
+                                            </h2>
+                                            <p
+                                                class="fw-medium text-primary mb-0"
+                                            >
+                                                Articles Publiés
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 about-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 pe-lg-0">
+                            <div
+                                class="bg-primary mb-3"
+                                style="width: 60px; height: 2px"
+                            ></div>
+                            <h1 class="display-5 mb-4">
+                                Origine de Notre Blog Informatif sur l’IA
+                            </h1>
+                            <p class="mb-4 pb-2">
+                                Ce blog a été créé par un groupe de passionnés
+                                d’IA dirigé par Julien Moreau et Camille Dubois,
+                                avec la volonté de partager des connaissances
+                                pratiques sur les transformations numériques
+                                liées à l’intelligence artificielle. Dès les
+                                débuts, nous avons voulu fournir une plateforme
+                                qui centralise les ressources fiables autour des
+                                technologies émergentes.
+                            </p>
+                            <p class="mb-4 pb-2">
+                                Grâce à nos rédacteurs spécialisés tels que
+                                Thomas Lefèvre et Émilie Roche, nous couvrons
+                                une variété de sujets, allant de l’apprentissage
+                                automatique aux systèmes de recommandation, en
+                                passant par les applications concrètes dans le
+                                quotidien personnel ou professionnel.
+                            </p>
+                            <p class="mb-4 pb-2">
+                                Aujourd’hui, nous sommes fiers de faire partie
+                                des principales sources francophones
+                                d'information sur l’IA, avec un contenu neutre,
+                                informatif et toujours à jour, accessible à tous
+                                ceux qui souhaitent comprendre le présent et le
+                                futur de cette révolution technologique.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/about2.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Facts Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="h-100 bg-dark p-4 p-xl-5">
+                            <div
+                                class="d-flex align-items-center justify-content-between mb-4"
+                            >
+                                <div
+                                    class="btn-square rounded-circle"
+                                    style="
+                                        width: 64px;
+                                        height: 64px;
+                                        background: #000000;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/icon/icon-3.png"
+                                        alt="Icon"
+                                    />
+                                </div>
+                                <h1
+                                    class="display-1 mb-0"
+                                    style="color: #000000"
+                                >
+                                    01
+                                </h1>
+                            </div>
+                            <h5 class="text-white">Actualités de l’IA</h5>
+                            <hr class="w-25" />
+                            <span>
+                                Tenez-vous informé des dernières évolutions dans
+                                le domaine de l’intelligence artificielle, des
+                                innovations techniques aux annonces des grandes
+                                entreprises du secteur.
+                            </span>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="h-100 bg-dark p-4 p-xl-5">
+                            <div
+                                class="d-flex align-items-center justify-content-between mb-4"
+                            >
+                                <div
+                                    class="btn-square rounded-circle"
+                                    style="
+                                        width: 64px;
+                                        height: 64px;
+                                        background: #000000;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/icon/icon-4.png"
+                                        alt="Icon"
+                                    />
+                                </div>
+                                <h1
+                                    class="display-1 mb-0"
+                                    style="color: #000000"
+                                >
+                                    02
+                                </h1>
+                            </div>
+                            <h5 class="text-white">Applications Pratiques</h5>
+                            <hr class="w-25" />
+                            <span>
+                                Découvrez comment l’intelligence artificielle
+                                est utilisée dans les tâches quotidiennes, les
+                                outils numériques, l’éducation, la gestion du
+                                temps, et bien plus encore.
+                            </span>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="h-100 bg-dark p-4 p-xl-5">
+                            <div
+                                class="d-flex align-items-center justify-content-between mb-4"
+                            >
+                                <div
+                                    class="btn-square rounded-circle"
+                                    style="
+                                        width: 64px;
+                                        height: 64px;
+                                        background: #000000;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/icon/icon-2.png"
+                                        alt="Icon"
+                                    />
+                                </div>
+                                <h1
+                                    class="display-1 mb-0"
+                                    style="color: #000000"
+                                >
+                                    03
+                                </h1>
+                            </div>
+                            <h5 class="text-white">Analyse et Réflexion</h5>
+                            <hr class="w-25" />
+                            <span>
+                                Nos rédacteurs analysent les implications
+                                sociales, éthiques et technologiques de l’IA,
+                                pour vous aider à mieux comprendre ses enjeux
+                                actuels et futurs.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- About Start -->
+        <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+            <div class="container about px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/approach.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 about-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 pe-lg-0">
+                            <div
+                                class="bg-primary mb-3"
+                                style="width: 60px; height: 2px"
+                            ></div>
+                            <h1 class="display-5 mb-4">
+                                Informations Essentielles sur l’IA
+                            </h1>
+                            <p class="mb-4 pb-2">
+                                L’intelligence artificielle transforme notre
+                                manière de travailler, de communiquer et
+                                d’apprendre. Ce blog vise à fournir une vision
+                                claire de ces changements, en partageant des
+                                articles pédagogiques, des ressources gratuites
+                                et des réflexions utiles pour tout public
+                                intéressé par les nouvelles technologies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Blog Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div
+                        class="bg-primary mb-3 mx-auto"
+                        style="width: 60px; height: 2px"
+                    ></div>
+                    <h1 class="display-5">
+                        Restez Informé sur les Dernières Avancées de
+                        l’Intelligence Artificielle
+                    </h1>
+                    <p class="mb-5">
+                        Bienvenue sur notre blog dédié à l’intelligence
+                        artificielle. Ici, nous partageons des actualités,
+                        analyses et tendances sur le développement de l’IA.
+                        Explorez les nouveautés technologiques, les applications
+                        concrètes et les débats autour de cette révolution
+                        numérique.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item">
+                            <div class="overflow-hidden position-relative">
+                                <img
+                                    style="
+                                        width: 100%;
+                                        height: 400px;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/blog-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">
+                                    IA Générative : Transformer le Texte en
+                                    Images et Sons
+                                </h5>
+                                <span>
+                                    Découvrez comment les modèles d’IA
+                                    générative transforment la création
+                                    artistique numérique. Ce billet explore le
+                                    fonctionnement de ces systèmes et leurs
+                                    impacts sur les métiers créatifs, la
+                                    communication et le divertissement.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item">
+                            <div class="overflow-hidden position-relative">
+                                <img
+                                    style="
+                                        width: 100%;
+                                        height: 400px;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/blog-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">
+                                    Automatiser les Tâches Quotidiennes grâce à
+                                    l’IA
+                                </h5>
+                                <span>
+                                    L’intelligence artificielle simplifie les
+                                    tâches administratives et personnelles.
+                                    Apprenez comment configurer des assistants
+                                    numériques pour optimiser votre temps et
+                                    automatiser des processus comme la gestion
+                                    de fichiers, les emails ou les agendas.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div
+                        class="bg-primary mb-3 mx-auto"
+                        style="width: 60px; height: 2px"
+                    ></div>
+                    <h1 class="display-5">Ce Que Disent Nos Lecteurs</h1>
+                    <p class="mb-5">
+                        Découvrez les témoignages de ceux qui ont approfondi
+                        leurs connaissances grâce à notre blog sur
+                        l’intelligence artificielle :
+                    </p>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div
+                        class="testimonial-item text-center"
+                        data-dot="<img class='img-fluid' src='img/testimonial-1.jpg' alt=''>"
+                    >
+                        <p class="fs-5">
+                            "J’ai trouvé des articles clairs et pertinents pour
+                            mieux comprendre les bases de l’intelligence
+                            artificielle. Une excellente ressource pour débuter
+                            et rester à jour."
+                        </p>
+                        <h4>Jean Dupont</h4>
+                    </div>
+                    <div
+                        class="testimonial-item text-center"
+                        data-dot="<img class='img-fluid' src='img/testimonial-2.jpg' alt=''>"
+                    >
+                        <p class="fs-5">
+                            "Le blog m’a aidée à intégrer l’IA dans mes projets
+                            professionnels. J’apprécie particulièrement la
+                            diversité des sujets et leur accessibilité."
+                        </p>
+                        <h4>Claire Moreau</h4>
+                    </div>
+                    <div
+                        class="testimonial-item text-center"
+                        data-dot="<img class='img-fluid' src='img/testimonial-3.jpg' alt=''>"
+                    >
+                        <p class="fs-5">
+                            "Grâce à vos explications sur les modèles d’IA, j’ai
+                            pu expérimenter avec des outils que je ne
+                            connaissais pas. Bravo pour ce contenu pédagogique
+                            !"
+                        </p>
+                        <h4>Luc Martin</h4>
+                    </div>
+                    <div
+                        class="testimonial-item text-center"
+                        data-dot="<img class='img-fluid' src='img/testimonial-4.jpg' alt=''>"
+                    >
+                        <p class="fs-5">
+                            "Votre blog est devenu ma référence pour suivre
+                            l’évolution de l’intelligence artificielle. Clair,
+                            précis et toujours bien documenté. Merci !"
+                        </p>
+                        <h4>Sophie Bernard</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+            <div class="container feature px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 feature-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 ps-lg-0">
+                            <div
+                                class="bg-primary mb-3"
+                                style="width: 60px; height: 2px"
+                            ></div>
+                            <h1 class="display-5 mb-5">
+                                Votre Fenêtre sur le Monde de l’Intelligence
+                                Artificielle
+                            </h1>
+                            <p class="mb-4 pb-2">
+                                Explorez les dernières découvertes, applications
+                                et innovations dans le domaine de l’intelligence
+                                artificielle. Notre plateforme vous propose une
+                                sélection d’analyses et d’articles pour mieux
+                                comprendre les enjeux technologiques actuels.
+                            </p>
+                            <div class="row g-4">
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Technologie
+                                            </p>
+                                            <h5 class="mb-0">Outils IA</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Productivité
+                                            </p>
+                                            <h5 class="mb-0">Automatisation</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Formation
+                                            </p>
+                                            <h5 class="mb-0">Éducation</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Mise à jour
+                                            </p>
+                                            <h5 class="mb-0">Veille 24/7</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pe-lg-0" style="min-height: 400px">
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/feature.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- NEWS Start -->
+        <div class="container-fluid p-0 pb-5" id="catalog">
+            <div class="owl-carousel news-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/news-1.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Bienvenue sur notre blog d'information
+                                        sur l'IA
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Suivez les dernières actualités sur
+                                        l’intelligence artificielle. De
+                                        l’apprentissage automatique aux avancées
+                                        en traitement du langage naturel, restez
+                                        informé des tendances clés dans le
+                                        domaine de l'IA.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/news-2.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Applications de l’IA dans la vie
+                                        quotidienne
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Découvrez comment l’IA transforme les
+                                        tâches quotidiennes : assistants
+                                        virtuels, planification intelligente,
+                                        génération de contenu et bien plus
+                                        encore. Notre blog vous aide à
+                                        comprendre son impact réel.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/news-3.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Innovations en Intelligence Artificielle
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-2"
+                                    >
+                                        Explorez les dernières innovations dans
+                                        le domaine de l’intelligence
+                                        artificielle, y compris les algorithmes
+                                        avancés, les réseaux neuronaux profonds
+                                        et les outils d’analyse automatisée.
+                                        Restez à la pointe de la technologie.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- NEWS End -->
+
+        <!-- Contact Start -->
+        <div
+            class="container-fluid bg-light overflow-hidden px-lg-0"
+            id="contact"
+        >
+            <div class="container">
+                <div class="p-lg-5 ps-lg-0">
+                    <div class="section-title text-start">
+                        <h1 class="display-5 mb-4">Contactez-nous</h1>
+                    </div>
+                    <form action="thanks.html" method="get">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="name"
+                                        required
+                                        placeholder="Votre Prénom"
+                                    />
+                                    <label for="name">Votre Prénom</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="surname"
+                                        required
+                                        placeholder="Votre Nom"
+                                    />
+                                    <label for="surname">Votre Nom</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-floating">
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="email"
+                                        required
+                                        placeholder="Votre Adresse Email"
+                                    />
+                                    <label for="email"
+                                        >Votre Adresse Email</label
+                                    >
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button
+                                    class="btn btn-primary w-100 py-3"
+                                    type="submit"
+                                    id="submit"
+                                >
+                                    Envoyer le Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Neuromix</h5>
+                        <p>
+                            Bienvenue sur notre plateforme dédiée aux
+                            informations essentielles sur l’intelligence
+                            artificielle. Découvrez des analyses, des actualités
+                            technologiques, et des contenus éducatifs sur l’IA
+                            pour mieux comprendre les usages et les impacts de
+                            cette technologie.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Liens Utiles</h5>
+                        <a class="btn btn-link" href="index.html#about"
+                            >À Propos</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Conditions Générales</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Politique de Confidentialité</a
+                        >
+                        <a class="btn btn-link" href="cookie-policy.html"
+                            >Politique des Cookies</a
+                        >
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Contact</h5>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>
+                            neuromix@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Consentement aux Cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Ce site utilise une
+                    <a href="cookie-policy.html">politique des cookies</a> pour
+                    vous offrir une meilleure expérience de navigation, axée sur
+                    les contenus liés à l’intelligence artificielle.
+                    <a href="privacy-policy.html">en savoir plus...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accepter</button>
+                <button class="cookie-button" id="declineBtn">Refuser</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
